@@ -147,3 +147,52 @@ a {
     font-size: 23px;
     color: #fff;
 }
+
+.contacto-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.contacto-info img {
+    width: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer {
+    background: #2f2f2f;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer img {
+    width: 45px;
+    margin: 10px;
+    transform: rotate(0);
+    transition: 0.4s;
+}
+ footer img:hover {
+     transform: rotate(360deg);
+     transition: 0.4s;
+ }
+
+ footer p {
+     color:  #fff;
+     margin-top: 40px;
+ }
+
+ #whatsapp {
+     position: fixed;
+     top: 80%;
+     right: 5%;
+     width: 90px;
+
+ }
