@@ -7,6 +7,8 @@
     <title>Sebastián Bogado</title>
     <link rel="stylesheet" href="estilos/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 </head>
 <body>
     <header>
@@ -54,22 +56,61 @@
             <div class="contenedor">
                 <h3>Servicios</h3>
                 <div class="contenedor-servicios">
-                    <div class="servicio">
+                    <div class="servicio violeta">
                         <h4>Diseño Web</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, aliquam?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo doloribus voluptatem perferendis. Repellat ipsa nobis, reprehenderit nesciunt nihil alias distinctio dicta nisi ducimus asperiores qui, iure suscipit necessitatibus? Aspernatur, perspiciatis.</p>
                     </div>
-                    <div class="servicio">
+                    <div class="servicio verde">
                         <h4>Responsive Design</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, aliquam?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo doloribus voluptatem perferendis. Repellat ipsa nobis, reprehenderit nesciunt nihil alias distinctio dicta nisi ducimus asperiores qui, iure suscipit necessitatibus? Aspernatur, perspiciatis.</p>
                     </div>
-                    <div class="servicio">
-                        <h4>SE</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, aliquam?</p>
+                    <div class="servicio violeta">
+                        <h4>SEO</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo doloribus voluptatem perferendis. Repellat ipsa nobis, reprehenderit nesciunt nihil alias distinctio dicta nisi ducimus asperiores qui, iure suscipit necessitatibus? Aspernatur, perspiciatis.</p>
                     </div>
+
                 </div>
             </div>
         </section>
 
+        <section id="mis-trabajos">
+            <div class="contenedor">
+                <h3>Mis trabajos</h3>
+                <div class="owl-carousel owl-theme">
+                    <div class="item"> <a href="http://sbogado87.pythonanywhere.com/"> <img src="imagenes/cv.png" alt=""> </a></div>
+                    <div class="item"> <a href="http://tiendalulo.com.ar"><img src="imagenes/lulo.png" alt=""> </a> </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="que-esperas">
+            <div class="contenedor">
+                <h3>¿Que esperas para que empecemos a conversar?</h3>
+                <a href="">CHARLEMOS</a>
+            </div>
+        </section>
+
     </main>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            }
+        }
+        })
+    </script>
 </body>
 </html>

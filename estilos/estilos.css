@@ -90,11 +90,60 @@ a {
      width: 42%;
  }
 
- #sobre-mi a {
+ #sobre-mi a , #que-esperas a {
     font-size: 14px;
     color: #fff;
     background: #550788;
     padding:14px 24px;
     width: 128px;
     display: inline-block;
+}
+
+/* SECCION SERVICIOS */
+
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    color: #fff;
+}
+
+.servicio {
+    width: 24%;
+    padding: 34px 30px 38px 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.servicio h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.servicio p {
+    margin-bottom: 28px;
+    height: 194px;
+}
+
+.contenedor-servicios .violeta {
+    background-color: rgba(75, 0, 130,.9);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.contenedor-servicios .verde {
+    background-color: rgba(51, 255, 104 ,.9);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#que-esperas {
+    background: linear-gradient(rgba(75, 0, 130,.9), rgba(51, 255, 104 ,.9)); 
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 40px;
+}
+
+#que-esperas h3 {
+    font-size: 23px;
+    color: #fff;
 }
