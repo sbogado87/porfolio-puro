@@ -196,3 +196,31 @@ footer img {
      width: 90px;
 
  }
+
+ html {
+     scroll-behavior: smooth ;
+ }
+
+ .menu-icon{
+     display: none;  
+ }
+
+ @media (max-width: 800px) {
+     header { 
+    }
+
+     .menu-icon {display: block;
+    float: right;
+    }
+    header nav {
+        position: absolute;
+        top:83px;
+        left: 0;
+        height: 268px;
+
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+ }
